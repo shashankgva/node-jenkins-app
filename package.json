@@ -1,0 +1,26 @@
+{
+  "name": "jenkins-app",
+  "version": "1.0.0",
+  "description": "This is node and jenkins app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankgva/node-jenkins-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashankgva/node-jenkins-app/issues"
+  },
+  "homepage": "https://github.com/shashankgva/node-jenkins-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.0"
+  }
+}
