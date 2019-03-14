@@ -1,8 +1,8 @@
 #!/bin/sh
 ssh adiga@68.183.56.56 <<EOF
  cd /var/www/node-jenkins-app
- git pull
- npm install
+ sudo git pull
+ sudo npm install
  pm2 restart all
  exit
 EOF
