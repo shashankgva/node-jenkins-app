@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh adiga@68.183.56.56 <<EOF
- cd ~/node-jenkins-app
+ cd /var/www/node-jenkins-app
  git pull
  npm install
  pm2 restart all
