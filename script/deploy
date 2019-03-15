@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh adiga@68.183.56.56 <<EOF
+ssh ec2-user@52.66.125.144 <<EOF
  cd /var/www/node-jenkins-app
  sudo git pull
  sudo npm install
