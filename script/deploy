@@ -1,2 +1,2 @@
 #!/bin/sh
-ssh ec2-user@52.66.125.144 -o StrictHostKeyChecking=no 'cd /var/www/node-jenkins-app; sudo git pull; sudo npm install; pm2 restart all;'
+ssh ec2-user@52.66.125.144 -o StrictHostKeyChecking=no 'sudo su cd /var/www/node-jenkins-app; sudo git pull; sudo npm install; pm2 restart all;'
