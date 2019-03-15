@@ -1,8 +1,6 @@
 #!/bin/sh
-ssh ec2-user@52.66.125.144 <<EOF
- cd /var/www/node-jenkins-app
- sudo git pull
- sudo npm install
- pm2 restart all
- exit
-EOF
+ssh ec2-user@52.66.125.144
+cd /var/www/node-jenkins-app
+sudo git pull
+sudo npm install
+pm2 restart all
